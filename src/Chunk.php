@@ -32,6 +32,13 @@ class Chunk
      */
     public $header;
 
+	/**
+	 * The headers.
+	 *
+	 * @var \Wester\ChunkUpload\Drivers\Contracts\DriverInterface
+	 */
+	public $driver;
+
     /**
      * The driver.
      * 
@@ -78,7 +85,7 @@ class Chunk
         ],
     ];
 
-    /**
+	/**
      * Create a new instance.
      * 
      * @param  array  $configs
@@ -142,7 +149,7 @@ class Chunk
     /**
      * Set the instance of header.
      * 
-     * @return \Wester\ChunkUpload\Header
+     * @return \Wester\ChunkUpload\Chunk
      */
     private function setHeader()
     {
