@@ -27,6 +27,13 @@ class SizeRule
      */
     private $value;
 
+	/**
+	 * The data.
+	 *
+	 * @var string
+	 */
+	private $data;
+
     /**
      * Create a new instance.
      * 
