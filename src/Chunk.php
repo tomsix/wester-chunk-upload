@@ -197,7 +197,7 @@ class Chunk
     /**
      * Initialize the driver.
      * 
-     * @return object
+     * @return \Wester\ChunkUpload\Chunk
      */
     private function setDriver()
     {
