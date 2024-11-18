@@ -143,7 +143,7 @@ class Chunk
     /**
      * Set the instance of header.
      * 
-     * @return \Wester\ChunkUpload\Header
+     * @return \Wester\ChunkUpload\Chunk
      */
     private function setHeader()
     {
