@@ -37,6 +37,7 @@ class Chunk
      * 
      * @var object
      */
+    public $driver;
 
     /**
      * The required headers.
@@ -142,7 +143,7 @@ class Chunk
     /**
      * Set the instance of header.
      * 
-     * @return \Wester\ChunkUpload\Header
+     * @return \Wester\ChunkUpload\Chunk
      */
     private function setHeader()
     {
