@@ -44,6 +44,7 @@ class Chunk
      * 
      * @var object
      */
+    public $driver;
 
     /**
      * The required headers.

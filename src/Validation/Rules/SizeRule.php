@@ -35,6 +35,13 @@ class SizeRule
 	private $data;
 
     /**
+     * The data.
+     *
+     * @var string
+     */
+    private $data;
+
+    /**
      * Create a new instance.
      * 
      * @param  \Wester\ChunkUpload\Validation\Validator  $validator
@@ -60,10 +67,8 @@ class SizeRule
     {
         if ($this->validator->exists($this->name)) {
             switch ($this->validator->currentDataType) {
-                case 'numeric':
-                    return (int) $this->value === (int) $this->data;
-
                 case 'file':
+                case 'numeric':
                     return (int) $this->value === (int) $this->data;
 
                 case 'string':
