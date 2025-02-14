@@ -40,13 +40,6 @@ class Chunk
 	public $driver;
 
     /**
-     * The driver.
-     * 
-     * @var object
-     */
-    public $driver;
-
-    /**
      * The required headers.
      * 
      * @var array
