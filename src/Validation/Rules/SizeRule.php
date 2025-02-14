@@ -35,13 +35,6 @@ class SizeRule
 	private $data;
 
     /**
-     * The data.
-     *
-     * @var string
-     */
-    private $data;
-
-    /**
      * Create a new instance.
      * 
      * @param  \Wester\ChunkUpload\Validation\Validator  $validator

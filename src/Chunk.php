@@ -267,7 +267,7 @@ class Chunk
      * @param  string  $text
      * @return void
      * 
-     * @throws \Wester\ChunkUpload\ChunkException
+     * @throws ChunkException
      */
     private function revoke(string $text): void
     {
