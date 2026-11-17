@@ -32,12 +32,12 @@ class Chunk
      */
     public $header;
 
-	/**
-	 * The headers.
-	 *
-	 * @var \Wester\ChunkUpload\Drivers\Contracts\DriverInterface
-	 */
-	public $driver;
+    /**
+     * The driver.
+     * 
+     * @var object
+     */
+    public $driver;
 
     /**
      * The required headers.
@@ -79,7 +79,7 @@ class Chunk
         ],
     ];
 
-	/**
+    /**
      * Create a new instance.
      * 
      * @param  array  $configs
@@ -267,7 +267,7 @@ class Chunk
      * @param  string  $text
      * @return void
      * 
-     * @throws ChunkException
+     * @throws \Wester\ChunkUpload\ChunkException
      */
     private function revoke(string $text): void
     {

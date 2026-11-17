@@ -3,6 +3,7 @@
 namespace Wester\ChunkUpload;
 
 use Wester\ChunkUpload\Validation\Validator;
+use CaseConverter\CaseString;
 
 class Header
 {
